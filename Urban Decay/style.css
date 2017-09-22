@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  /*font-family: "ProximaNovaA-Bold";*/
+  background-color: #3C2245;
+
+}
+
+button {
+  display: inline-block;
+  width: 40%;
+  margin-left: 31%;
+}
+
+nav {
+  background-color: #0E111D;
+  height: 70px;
+  text-align: center;
+  padding-top: 8px;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+}
+a {
+/*   float: left; */
+  font-family: 'calligraffitti';
+  display: block;
+  color: #F2DFCB;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: none;
+  background: transparent;
+}
+
+.logo-container {
+  letter-spacing: 10px;
+  font-size: 35px;
+  padding: 5px 7px 5px 7px;
+}
+
+.myDiv {
+  padding-top: 79px;
+}
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.parent-wrapper {
+    height:100%;
+    width:100%;
+
+}
+.parent {
+    display: flex;
+    flex-wrap:wrap;
+    margin:-10px 0 0 -10px;
+    padding: 1% 13%;
+}
+.child {
+    display: inline-block;
+    background: white;
+    /*margin:10px 0 0 10px;*/
+    flex-grow: 1;
+    height:100%;
+    width: calc(100% * (1/2) - 10px);
+    background-color: #3C2245;
+    font-family: "'Cinzel",serif;
+    padding: 5px;
+}
+/*
+.miniChild {
+  margin: auto;
+  width: 100%;
+
+}*/
+
+h2 {
+  font-family: "Cinzel",serif;
+  text-align: center;
+  font-size: 25px;
+  background-color: #3C2245;
+  color: white;
+  font-weight: 100;
+
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  background-color: #3C2245;
+  color: white;
+}
+
+ img {
+   margin-left: auto;
+	 margin-right: auto;
+	 display: block;
+   width: 200px;
+   height: 225px;
+ }
+
+ footer {
+   font-size: 20px;
+   height: 45px;
+   background-color: #0E111D;
+   opacity: 0.8;
+   color: #F2DFCB;
+   letter-spacing: 3px;
+   padding-top: 13px;
+   padding-left: 10px;
+   font-family: 'calligraffitti';
+ }

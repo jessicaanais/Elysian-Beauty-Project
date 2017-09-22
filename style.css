@@ -1,0 +1,120 @@
+* {
+  font-family: 'calligraffitti';
+
+}
+body {
+  background-image: url("./background2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*opacity: 0.8;*/
+  height: 80%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+
+}
+html {
+  padding: 0px;
+  margin: 0px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #0E111D;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /*padding-left: 13%;*/
+  height: 70px;
+  text-align: center;
+  padding-top: 8px;
+  opacity: 0.8;
+
+
+}
+
+a {
+/*   float: left; */
+  display: block;
+  color: #F2DFCB;
+  text-align: center;
+  text-decoration: none;
+  font-size: 27px;
+  letter-spacing: 3px;
+  padding: 10px 7px 10px 7px;
+  display: inline-block;
+  background: transparent;
+}
+
+#logo {
+  letter-spacing: 10px;
+  font-size: 35px;
+  padding: 5px 7px 5px 7px;
+}
+
+#middle {
+  position: relative;
+  margin-top: 55%;
+  margin-left: 30%;
+  margin-bottom: 25%;
+  margin-left: 40%;
+}
+
+
+
+form {
+  height: 80px;
+  width: 300px;
+  border-radius: 40px;
+}
+
+.formDiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  margin: auto 10px auto auto;
+  padding-top: 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: solid;
+  border-color:rgba(0, 0, 0, 0.4);
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  background-color: transparent;
+  border-width: 10px;
+}
+
+#search{
+  width: 80%;
+}
+
+#button {
+  margin: auto;
+  text-align: center;
+  width: 20%;
+  background-color: #F2DFCB;
+  border-width: 0px;
+  padding: 3px;
+
+}
+
+footer {
+  font-size: 20px;
+  height: 45px;
+  background-color: #0E111D;
+  opacity: 0.8;
+  color: #F2DFCB;
+  letter-spacing: 3px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+
+input[type="search"]
+{
+    width: 120px;
+    height: 55px;
+    font-size: 25px;
+}
