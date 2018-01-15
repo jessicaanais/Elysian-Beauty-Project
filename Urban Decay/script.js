@@ -22,11 +22,7 @@ $(document).ready(function(){
       let p = document.createElement('p')
       p.textContent = data["Urban Decay"][i].price;
       div[i].appendChild(p)
-
-      var btn = document.createElement("BUTTON");
-      btn.textContent = "Add to Cart"
-      div[i].appendChild(btn);
-
+ 
 
 
       let p1 = document.createElement('p')
