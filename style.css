@@ -6,7 +6,6 @@ body {
   background-image: url("./background2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /*opacity: 0.8;*/
   height: 80%;
   width: 100%;
   padding: 0px;
@@ -23,7 +22,6 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
-  /*padding-left: 13%;*/
   height: 70px;
   text-align: center;
   padding-top: 8px;
@@ -33,7 +31,6 @@ html {
 }
 
 a {
-/*   float: left; */
   display: block;
   color: #F2DFCB;
   text-align: center;

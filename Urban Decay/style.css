@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  /*font-family: "ProximaNovaA-Bold";*/
   background-color: #3C2245;
 
 }
@@ -21,7 +20,6 @@ nav {
   width: 100%;
 }
 a {
-/*   float: left; */
   font-family: 'calligraffitti';
   display: block;
   color: #F2DFCB;
@@ -63,7 +61,6 @@ a {
 .child {
     display: inline-block;
     background: white;
-    /*margin:10px 0 0 10px;*/
     flex-grow: 1;
     height:100%;
     width: calc(100% * (1/2) - 10px);
@@ -71,12 +68,6 @@ a {
     font-family: "'Cinzel",serif;
     padding: 5px;
 }
-/*
-.miniChild {
-  margin: auto;
-  width: 100%;
-
-}*/
 
 h2 {
   font-family: "Cinzel",serif;
